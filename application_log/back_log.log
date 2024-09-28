@@ -1,0 +1,4 @@
+2024-09-28T20:49:40.161+09:00  INFO 8472 --- [Backend_Testing] [main] c.e.B.BackendTestingApplication          : Starting BackendTestingApplication using Java 17.0.1 with PID 8472 (/Users/seongsinhye/Desktop/project/Backend_Testing/build/classes/java/main started by seongsinhye in /Users/seongsinhye/Desktop/project/Backend_Testing)
+2024-09-28T20:49:40.167+09:00 DEBUG 8472 --- [Backend_Testing] [main] c.e.B.BackendTestingApplication          : Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-09-28T20:49:40.168+09:00  INFO 8472 --- [Backend_Testing] [main] c.e.B.BackendTestingApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-09-28T20:49:41.089+09:00  INFO 8472 --- [Backend_Testing] [main] c.e.B.BackendTestingApplication          : Started BackendTestingApplication in 1.106 seconds (process running for 1.442)
