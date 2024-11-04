@@ -1,0 +1,18 @@
+name: BackEnd_study
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run pwd
+        run: pwd # 현재 사용자가 어떤 디렉토링 있는 알려주는 명령어
+
+      - name: Run ls -al
+        run: ls -al 
