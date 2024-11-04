@@ -9,6 +9,9 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+
+import java.util.HashMap;
+
 @Tag(name = "메인", description = "메인 API")
 @RestController
 @RequestMapping("/api")
@@ -26,7 +29,8 @@ public class MainController {
 
 
     @GetMapping("/test")
-    public int hello() {
+    public HashMap<String, Object> hello() {
+        log.info("test");
         return mainService.test();
     }
 }

@@ -30,7 +30,7 @@ public class SwaggerConfig {
 
     private Info apiInfo() {
         return new Info()
-                .title("백엔드 테스트 api") // API의 제목
+                .title("백엔드 테스트 api 2222") // API의 제목
                 .description("백엔드 테스트용 api 입니다.") // API에 대한 설명
                 .version("1.0.0"); // API의 버전
     }
